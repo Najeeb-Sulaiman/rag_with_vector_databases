@@ -66,15 +66,6 @@ def create_vector_store(messages, api_key, index_name):
 # RAG Workflow Implementation
 def create_rag_chain(vector_store, openai_api_key):
     """Create a Retrieval-Augmented Generation chain using LangChain."""
-    # llm = HuggingFaceHub(
-    #     repo_id="google/flan-t5-large", 
-    #     model_kwargs={"temperature": 0, "max_new_tokens": 200},
-    #     huggingfacehub_api_token="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")
-    # retriever = vector_store.as_retriever()
-    # qa_chain = RetrievalQA.from_chain_type(
-    #     llm=llm, 
-    #     chain_type="stuff",
-    #     retriever=retriever)
 
     # chatbot language model
     llm = ChatOpenAI(

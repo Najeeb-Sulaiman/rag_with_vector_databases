@@ -9,9 +9,6 @@ from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_community.chat_models import ChatOpenAI
 from pinecone import ServerlessSpec, Pinecone
 import streamlit as st
-from dotenv import load_dotenv
-
-load_dotenv()
 
 
 # Load and Process Data

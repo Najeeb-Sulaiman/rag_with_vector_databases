@@ -1,8 +1,7 @@
 pandas==2.2.3
 pinecone==5.4.2
-langchain_pinecone==0.2.0
+langchain_pinecone
 langchain-huggingface==0.1.2
 langchain-community==0.3.13
 langchain-openai==0.2.14
 streamlit==1.41.1
-python-dotenv==1.0.1

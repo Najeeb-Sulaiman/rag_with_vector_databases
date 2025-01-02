@@ -97,7 +97,7 @@ def create_rag_chain(vector_store, openai_api_key):
     RAG object chaining the created vector index with LLM
     """
 
-    # chatbot language model
+    # chatbot language model.
     llm = ChatOpenAI(
         openai_api_key=openai_api_key,
         model_name='gpt-4o-mini',

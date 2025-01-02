@@ -1,3 +1,4 @@
 dec_chatbot/
 messages.csv
 .env
+.flake8

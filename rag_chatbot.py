@@ -1,6 +1,5 @@
 # Full Code Implementation for the Q&A app below:
 
-import os
 import time
 import pandas as pd
 import logging
@@ -142,12 +141,12 @@ def chatbot_ui(qa_chain):
 def main():
     """Main function to execute the project pipeline."""
     # Load data
-    data_path = os.getenv("CSV_PATH")
+    data_path = st.secrets["CSV_PATH"]
     messages = load_cleaned_data(data_path)
 
     # API Keys
-    pinecone_api_key = os.getenv("PINECONE_API_KEY")
-    openai_api_key = os.getenv("OPENAI_API_KEY")
+    pinecone_api_key = st.secrets["PINECONE_API_KEY"]
+    openai_api_key = st.secrets["OPENAI_API_KEY"]
 
     index_name = "dec-chat"
 

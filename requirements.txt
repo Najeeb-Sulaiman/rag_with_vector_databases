@@ -1,7 +1,7 @@
-pandas
-pinecone
-langchain_pinecone
-langchain-huggingface
-langchain-community
-langchain-openai
-streamlit
+pandas==2.2.3
+pinecone==5.4.2
+langchain_pinecone==0.1.2
+langchain-huggingface==0.0.3
+langchain-community==0.2.19
+langchain-openai==0.1.25
+streamlit==1.41.1

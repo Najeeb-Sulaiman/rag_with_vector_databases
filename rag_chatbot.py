@@ -1,14 +1,15 @@
 # Full Code Implementation for the Q&A app below:
 
-import time
-import pandas as pd
 import logging
-from langchain_pinecone import PineconeVectorStore
-from langchain.chains import RetrievalQA
-from langchain_huggingface import HuggingFaceEmbeddings
-from langchain_community.chat_models import ChatOpenAI
-from pinecone import ServerlessSpec, Pinecone
+import time
+
+import pandas as pd
 import streamlit as st
+from langchain.chains import RetrievalQA
+from langchain_community.chat_models import ChatOpenAI
+from langchain_huggingface import HuggingFaceEmbeddings
+from langchain_pinecone import PineconeVectorStore
+from pinecone import Pinecone, ServerlessSpec
 
 
 # Load and Process Data

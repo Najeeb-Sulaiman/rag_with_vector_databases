@@ -1,9 +1,9 @@
-from langchain_pinecone import PineconeVectorStore
-from langchain.chains import RetrievalQA
-from langchain_huggingface import HuggingFaceEmbeddings
-from langchain_community.chat_models import ChatOpenAI
-from pinecone import Pinecone
 import streamlit as st
+from langchain.chains import RetrievalQA
+from langchain_community.chat_models import ChatOpenAI
+from langchain_huggingface import HuggingFaceEmbeddings
+from langchain_pinecone import PineconeVectorStore
+from pinecone import Pinecone
 
 
 # Generating Embeddings and Store in Vector Database.

@@ -24,3 +24,7 @@ The goal of this project is to demonstrate the power of vector databases and gen
 1. Ingest WhatsApp group chat messages.
 2. Generate embeddings for the messages and store them in a vector database.
 3. Use a Retrieval-Augmented Generation (RAG) pipeline to answer user questions based on the stored messages.
+
+This project is designed to be educational and interactive, suitable for exploration and learning.
+
+---

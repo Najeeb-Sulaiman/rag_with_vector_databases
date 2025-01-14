@@ -19,4 +19,8 @@ This repository contains the code and resources for building a **Retrieval-Augme
 
 ---
 
-
+## Overview
+The goal of this project is to demonstrate the power of vector databases and generative AI by building a chatbot that can:
+1. Ingest WhatsApp group chat messages.
+2. Generate embeddings for the messages and store them in a vector database.
+3. Use a Retrieval-Augmented Generation (RAG) pipeline to answer user questions based on the stored messages.

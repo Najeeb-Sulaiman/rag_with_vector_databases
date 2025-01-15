@@ -45,4 +45,6 @@ This project is designed to be educational and interactive, suitable for explora
 - **Pinecone**: As the vector database for storing and retrieving embeddings.
 - **Pandas**: For data cleaning and manipulation.
 
+---
+
 

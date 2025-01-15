@@ -28,3 +28,21 @@ The goal of this project is to demonstrate the power of vector databases and gen
 This project is designed to be educational and interactive, suitable for exploration and learning.
 
 ---
+
+## Features
+- **Custom Data**: Use cleaned WhatsApp group chat data as the knowledge base.
+- **RAG Workflow**: Combines vector-based search with a Hugging Face LLM for accurate and context-aware answers.
+- **Streamlit UI**: A simple and user-friendly interface for interacting with the chatbot.
+- **Scalability**: Demonstrates integration with Pinecone for vector storage.
+
+---
+
+## Technologies Used
+- **Python**: Main programming language.
+- **Streamlit**: For creating the chatbot's web interface.
+- **Hugging Face Transformers**: Provides the LLM for generating responses.
+- **Sentence Transformers**: For generating text embeddings.
+- **Pinecone**: As the vector database for storing and retrieving embeddings.
+- **Pandas**: For data cleaning and manipulation.
+
+

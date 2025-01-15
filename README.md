@@ -47,4 +47,13 @@ This project is designed to be educational and interactive, suitable for explora
 
 ---
 
+## Project Setup
 
+### Prerequisites
+1. Python 3.8 or higher installed on your system.
+2. API keys for Pinecone and Hugging Face Hub.
+3. A cleaned CSV file of WhatsApp messages with the following fields:
+   - `date`
+   - `time`
+   - `sender`
+   - `message`

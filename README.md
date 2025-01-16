@@ -53,7 +53,67 @@ This project is designed to be educational and interactive, suitable for explora
 1. Python 3.8 or higher installed on your system.
 2. API keys for Pinecone and Hugging Face Hub.
 3. A cleaned CSV file of WhatsApp messages with the following fields:
-   - `date`
-   - `time`
    - `sender`
    - `message`
+
+### Installation
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/Najeeb-Sulaiman/rag_with_vector_databases.git
+   cd rag_with_vector_databases
+   ```
+2. Install the required dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+### Environment Variables
+Create a `.env` file in the project root and add the following:
+```
+PINECONE_API_KEY=your-pinecone-api-key
+OPENAI_API_KEY=your-openai-api-key
+HUGGINGFACEHUB_API_TOKEN=your-huggingface-api-token
+```
+Replace `your-pinecone-api-key`, `your-openai-api-key`, and `your-huggingface-api-token` with your actual credentials.
+
+---
+
+## How It Works
+
+1. **Data Loading**:
+   - Load the cleaned WhatsApp chat data from a CSV file.
+   - Concatenate `sender` and `message` fields to create context-rich content.
+
+2. **Embedding Generation**:
+   - Use `SentenceTransformer` to generate embeddings for each message.
+
+3. **Vector Storage**:
+   - Store embeddings in Pinecone, associating each with metadata (e.g., message text).
+
+4. **RAG Workflow**:
+   - Retrieve relevant messages using similarity search in Pinecone.
+   - Pass the retrieved messages as context to the Hugging Face or OpenAI LLM.
+
+5. **Streamlit UI**:
+   - A web interface to input user questions and display chatbot responses.
+
+---
+
+## Usage
+
+1. Run the Streamlit app:
+   ```bash
+   streamlit run rag_chatbot.py
+   ```
+
+2. Open the app in your browser at `http://localhost:8501`.
+
+3. Ask questions based on the WhatsApp chat data and receive intelligent answers!
+
+---
+
+## Future Enhancements
+- Add support for other vector databases like Milvus or Weaviate.
+- Add file upload option and support Q&A based on uploaded document.
+- Expand to handle multimedia data like images and audio.
+

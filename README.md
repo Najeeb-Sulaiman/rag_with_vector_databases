@@ -116,8 +116,3 @@ Replace `your-pinecone-api-key`, `your-openai-api-key`, and `your-huggingface-ap
 - Add support for other vector databases like Milvus or Weaviate.
 - Add file upload option and support Q&A based on uploaded document.
 - Expand to handle multimedia data like images and audio.
-
----
-
-## License
-This project is licensed under the MIT License. See the LICENSE file for details.

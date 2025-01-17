@@ -15,7 +15,7 @@ This repository contains the code and resources for building a **Retrieval-Augme
 - [How It Works](#how-it-works)
 - [Usage](#usage)
 - [Future Enhancements](#future-enhancements)
-- [License](#license)
+- [Useful Resources](#useful-resources)
 
 ---
 
@@ -116,3 +116,27 @@ Replace `your-pinecone-api-key`, `your-openai-api-key`, and `your-huggingface-ap
 - Add support for other vector databases like Milvus or Weaviate.
 - Add file upload option and support Q&A based on uploaded document.
 - Expand to handle multimedia data like images and audio.
+
+---
+
+## Useful Resources
+[Pinecone documentation](https://docs.pinecone.io/guides/get-started/overview)
+
+[Pinecone Learn](https://www.pinecone.io/learn/)
+
+[Pinecone Example Project Github Repo](https://github.com/pinecone-io/examples)
+
+[Langchain documentation](https://python.langchain.com/docs/introduction/)
+
+[Langchain  Tutorials](https://python.langchain.com/docs/tutorials/)
+
+[LangChain Github Repo](https://github.com/langchain-ai/langchain)
+
+[Hugging face documentation](https://huggingface.co/docs)
+
+[OpenAI API reference](https://platform.openai.com/docs/api-reference/introduction)
+
+[Google ML cash course](https://developers.google.com/machine-learning/intro-to-ml)
+
+[Jay Alammar Word2Vec Illustration](https://jalammar.github.io/illustrated-word2vec/)
+

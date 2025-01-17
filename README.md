@@ -140,3 +140,16 @@ Replace `your-pinecone-api-key`, `your-openai-api-key`, and `your-huggingface-ap
 
 [Jay Alammar Word2Vec Illustration](https://jalammar.github.io/illustrated-word2vec/)
 
+Youtube Useful Links:
+
+[Vector Databases simply explained! (Embeddings & Indexes)](https://www.youtube.com/watch?v=dN0lsF2cvm4)
+
+[Understanding How Vector Databases Work!](https://www.youtube.com/watch?v=035I2WKj5F0)
+
+[OpenAI Embeddings and Vector Databases Crash Course](https://www.youtube.com/watch?v=ySus5ZS0b94)
+
+[How to use Retrieval Augmented Generation (RAG)](https://www.youtube.com/watch?v=oVtlp72f9NQ)
+
+[LangChain Tutorials Playlist | LLM Tutorial Playlist](https://www.youtube.com/playlist?list=PLeo1K3hjS3uu0N_0W6giDXzZIcB07Ng_F)
+
+[Vector Embeddings Tutorial – Code Your Own AI Assistant with GPT-4 API + LangChain + NLP](https://www.youtube.com/watch?v=yfHHvmaMkcA&list=WL&index=9&t=247s)

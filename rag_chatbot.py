@@ -1,5 +1,3 @@
-# Full Code Implementation for the Q&A app below:
-
 import logging
 import time
 

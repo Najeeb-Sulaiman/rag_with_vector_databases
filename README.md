@@ -7,6 +7,7 @@ This repository contains the code and resources for building a **Retrieval-Augme
 ## Table of Contents
 - [Overview](#overview)
 - [Features](#features)
+- [Architecture](#architecture)
 - [Technologies Used](#technologies-used)
 - [Project Setup](#project-setup)
   - [Prerequisites](#prerequisites)
@@ -34,6 +35,12 @@ This project is designed to be educational and interactive, suitable for explora
 - **RAG Workflow**: Combines vector-based search with a Hugging Face LLM for accurate and context-aware answers.
 - **Streamlit UI**: A simple and user-friendly interface for interacting with the chatbot.
 - **Scalability**: Demonstrates integration with Pinecone for vector storage.
+
+---
+
+## Architecture
+
+![Architecture Diagram](/img/vector_databases.png)
 
 ---
 
